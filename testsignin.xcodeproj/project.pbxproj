@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D477FA71ED467B60042EC2B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D477FA61ED467B60042EC2B /* Podfile */; };
+		4D477FA91ED467C10042EC2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D477FA81ED467C10042EC2B /* GoogleService-Info.plist */; };
+		4D5B7C3B1ED4779800647F4F /* SegueOneControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B7C3A1ED4779800647F4F /* SegueOneControllerTableViewController.m */; };
+		4DCC73461ED46744006CA568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC73451ED46744006CA568 /* main.m */; };
+		4DCC73491ED46744006CA568 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC73481ED46744006CA568 /* AppDelegate.m */; };
+		4DCC734C1ED46744006CA568 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC734B1ED46744006CA568 /* ViewController.m */; };
+		4DCC734F1ED46744006CA568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC734D1ED46744006CA568 /* Main.storyboard */; };
+		C77AEE0C421CBABB57BAC542 /* libPods-testsignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DD3FAD3F190D489019E5C2 /* libPods-testsignin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02DD3FAD3F190D489019E5C2 /* libPods-testsignin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testsignin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D477FA61ED467B60042EC2B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D477FA81ED467C10042EC2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D5B7C391ED4779800647F4F /* SegueOneControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SegueOneControllerTableViewController.h; path = ../SegueOneControllerTableViewController.h; sourceTree = "<group>"; };
+		4D5B7C3A1ED4779800647F4F /* SegueOneControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SegueOneControllerTableViewController.m; path = ../SegueOneControllerTableViewController.m; sourceTree = "<group>"; };
+		4DCC73411ED46744006CA568 /* testsignin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testsignin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCC73451ED46744006CA568 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DCC73471ED46744006CA568 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DCC73481ED46744006CA568 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DCC734A1ED46744006CA568 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DCC734B1ED46744006CA568 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DCC734E1ED46744006CA568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DCC73551ED46744006CA568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA92410C2441CC74991690E /* Pods-testsignin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testsignin.release.xcconfig"; path = "Pods/Target Support Files/Pods-testsignin/Pods-testsignin.release.xcconfig"; sourceTree = "<group>"; };
+		B397B8A22F19AC822B37A2A0 /* Pods-testsignin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testsignin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testsignin/Pods-testsignin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DCC733E1ED46744006CA568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77AEE0C421CBABB57BAC542 /* libPods-testsignin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F9F782409642DB7CF4B787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02DD3FAD3F190D489019E5C2 /* libPods-testsignin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF3B6F4D734825833F6F06A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B397B8A22F19AC822B37A2A0 /* Pods-testsignin.debug.xcconfig */,
+				9CA92410C2441CC74991690E /* Pods-testsignin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DCC73381ED46744006CA568 = {
+			isa = PBXGroup;
+			children = (
+				4DCC73431ED46744006CA568 /* testsignin */,
+				4DCC73421ED46744006CA568 /* Products */,
+				4D477FA61ED467B60042EC2B /* Podfile */,
+				4D477FA81ED467C10042EC2B /* GoogleService-Info.plist */,
+				3CF3B6F4D734825833F6F06A /* Pods */,
+				18F9F782409642DB7CF4B787 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DCC73421ED46744006CA568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DCC73411ED46744006CA568 /* testsignin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DCC73431ED46744006CA568 /* testsignin */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B7C391ED4779800647F4F /* SegueOneControllerTableViewController.h */,
+				4D5B7C3A1ED4779800647F4F /* SegueOneControllerTableViewController.m */,
+				4DCC73471ED46744006CA568 /* AppDelegate.h */,
+				4DCC73481ED46744006CA568 /* AppDelegate.m */,
+				4DCC734A1ED46744006CA568 /* ViewController.h */,
+				4DCC734B1ED46744006CA568 /* ViewController.m */,
+				4DCC734D1ED46744006CA568 /* Main.storyboard */,
+				4DCC73551ED46744006CA568 /* Info.plist */,
+				4DCC73441ED46744006CA568 /* Supporting Files */,
+			);
+			path = testsignin;
+			sourceTree = "<group>";
+		};
+		4DCC73441ED46744006CA568 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DCC73451ED46744006CA568 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DCC73401ED46744006CA568 /* testsignin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCC73581ED46744006CA568 /* Build configuration list for PBXNativeTarget "testsignin" */;
+			buildPhases = (
+				88B6007CA0AC569D079A502B /* [CP] Check Pods Manifest.lock */,
+				4DCC733D1ED46744006CA568 /* Sources */,
+				4DCC733E1ED46744006CA568 /* Frameworks */,
+				4DCC733F1ED46744006CA568 /* Resources */,
+				F4E2039D810AE285B8FC3C09 /* [CP] Embed Pods Frameworks */,
+				8B08BDD7144F3E0489DE54D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testsignin;
+			productName = testsignin;
+			productReference = 4DCC73411ED46744006CA568 /* testsignin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DCC73391ED46744006CA568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mark McGuill";
+				TargetAttributes = {
+					4DCC73401ED46744006CA568 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4DCC733C1ED46744006CA568 /* Build configuration list for PBXProject "testsignin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DCC73381ED46744006CA568;
+			productRefGroup = 4DCC73421ED46744006CA568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DCC73401ED46744006CA568 /* testsignin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DCC733F1ED46744006CA568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D477FA91ED467C10042EC2B /* GoogleService-Info.plist in Resources */,
+				4D477FA71ED467B60042EC2B /* Podfile in Resources */,
+				4DCC734F1ED46744006CA568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88B6007CA0AC569D079A502B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B08BDD7144F3E0489DE54D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testsignin/Pods-testsignin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E2039D810AE285B8FC3C09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testsignin/Pods-testsignin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DCC733D1ED46744006CA568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5B7C3B1ED4779800647F4F /* SegueOneControllerTableViewController.m in Sources */,
+				4DCC734C1ED46744006CA568 /* ViewController.m in Sources */,
+				4DCC73491ED46744006CA568 /* AppDelegate.m in Sources */,
+				4DCC73461ED46744006CA568 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DCC734D1ED46744006CA568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DCC734E1ED46744006CA568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DCC73561ED46744006CA568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DCC73571ED46744006CA568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DCC73591ED46744006CA568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B397B8A22F19AC822B37A2A0 /* Pods-testsignin.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = testsignin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markmcguill.testsignin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		4DCC735A1ED46744006CA568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA92410C2441CC74991690E /* Pods-testsignin.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = testsignin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markmcguill.testsignin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DCC733C1ED46744006CA568 /* Build configuration list for PBXProject "testsignin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCC73561ED46744006CA568 /* Debug */,
+				4DCC73571ED46744006CA568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DCC73581ED46744006CA568 /* Build configuration list for PBXNativeTarget "testsignin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCC73591ED46744006CA568 /* Debug */,
+				4DCC735A1ED46744006CA568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DCC73391ED46744006CA568 /* Project object */;
+}
